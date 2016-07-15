@@ -9,28 +9,47 @@
 
 <div class="col-md-offset-2 col-md-8 breathing-space seagrid-info">
 	<h1 class="text-center">OU Super Computing Center</h1>
-	<p class="text-center" style="color:#cccccc;">
-		The OU Supercomputing Center for Education & Research, a division of OU Information Technology, helps undergraduates, grad students, faculty and staff to learn and use advanced computing in their science and engineering research and education.<br/>
-	</p>
 	<hr/>
-	<div class="col-md-5">
+	<div class="col-md-12">
 	<p style="font-size:14px; margin-top:20px;">
-		The project is led by Information Technology and includes faculty and staff in the College of Engineering, the School of Computer Science, the School of Electrical & Computer Engineering, the School of Meteorology, the Homer L. Dodge Department of Physics & Astronomy, the Department of Microbiology & Plant Biology, the Center for Analysis & Prediction of Storms, the Cooperative Institute for Mesoscale Meteorological Studies, the Center for Spatial Analysis, and the Earth Observation Modeling Facility. 
+		The OU Cybergateway lets you use well-known scientific applications like WRF, Gaussian, NWChem, Quantum Espresso, and others through a Web browser interface.  Keep track of your simulations’ metadata and output, and share with your team, collaborators.  Supplement your teaching by giving students controlled access to scientific applications. 
 	</p>
-	</div>
-	<div class="col-md-offset-1 col-md-5">
-	<p style="font-size:14px; margin-top:20px;">
-	Currently, OSCER hardware resources are housed in the Stephenson Research & Technology Center and Merrick Computing Center, both on the OU Norman campus.</p>
-	<p>OSCER is a member of the <a href="http://casc.org/" target="_blank">Coalition for Academic Scientific Computation.</a></p>
 	</div>
 
 </div>
 
 
+<div class="col-md-12" style="padding-top:20px;">
+	<div class="col-md-offset-1 col-md-10 text-center">
+
+		<div class="row" style="margin:60px 0;">
+
+			<div class="col-md-4">
+				<span class="feature-icon-img"><img src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/icon2.png" width="40%"/></span>
+				<h4>About OSCER</h4>
+				<p>The OU Supercomputing Center for Education & Research, a division of OU Information Technology, helps undergraduates, grad students, faculty and staff to learn and use advanced computing in their science and engineering research and education.
+</p>
+			</div>
+			<div class="col-md-4">
+				<span class="feature-icon-img"><img src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/icon1.png"  width="40%"/></span>
+				<h4>Gateway to OSCER Resources</h4>
+				<p>The OU Cybergateway allows you to run computational chemistry and atmospheric science applications on OU cluster computing resources through your Web browser.
+</p>
+			</div>
+			<div class="col-md-4">
+				<span class="feature-icon-img"><img src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/icon3.png" width="40%"/></span>
+				<h4>Scaling out to XSEDE</h4>
+				<p>Expand out to use XSEDE resources like TACC’s Stampede, SDSC’s Comet, and Pittsburgh Supercomputing Center’s Bridges supercomputers.  Run scientific applications and manage remote data right away using the OU Cybergateway’s XSEDE community allocation.  
+</p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="col-md-offset-2 col-md-8 text-center" style="margin-top:50px;">
 <h3>Create your Account Today!</h3>
 <a href="{{ URL::to('/') }}/create">
-<button class="btn btn-primary btn-lg" style="border-radius:0; background-color:#900C3F; border:0; margin-top:10px;">Create Account</button></a>
+<button class="btn btn-primary btn-lg" style="border-radius:0; background-color:#EF5454; border:0; margin-top:10px;">Create Account</button></a>
 </div>
 
 <!--
