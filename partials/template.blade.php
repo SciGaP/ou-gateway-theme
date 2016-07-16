@@ -8,7 +8,7 @@
 </div>
 
 <div class="col-md-offset-2 col-md-8 breathing-space seagrid-info">
-	<h1 class="text-center">OU Super Computing Center</h1>
+	<h1 class="text-center">OU Cyber Gateway</h1>
 	<hr/>
 	<div class="col-md-12">
 	<p style="font-size:14px; margin-top:20px;">
