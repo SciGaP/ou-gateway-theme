@@ -49,7 +49,7 @@
 <div class="col-md-offset-2 col-md-8 text-center" style="margin-top:50px;">
 <h3>Create your Account Today!</h3>
 <a href="{{ URL::to('/') }}/create">
-<button class="btn btn-primary btn-lg" style="border-radius:0; background-color:#EF5454; border:0; margin-top:10px;">Create Account</button></a>
+<button class="btn btn-primary btn-lg" style="border-radius:1; border:1; margin-top:10px;">Create Account</button></a>
 </div>
 
 <!--
