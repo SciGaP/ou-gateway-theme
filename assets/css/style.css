@@ -231,3 +231,19 @@ body{
 .cite-area{
     font-size: 0.85em;
 }
+
+a {
+    color: black;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #841617;
+    background-color: #841617;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+    color: #fff;
+    background-color: #971d20;
+    border-color: #971d20; /*set the color you want here*/
+}

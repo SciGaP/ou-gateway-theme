@@ -10,7 +10,7 @@
 </style>
 <hr class="separation-line"/>
 <div class="col-md-12 text-center" style=" padding: 20px 0 20px 0;">
-	<a href="http://airavata.apache.org/" target="_blank">
+	<a href="https://airavata.apache.org/" target="_blank">
 		<img width="200px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/poweredby-airavata-logo.png">
 	</a>
 	<a href="https://www.xsede.org/" target="_blank" class="logo-seperation">
@@ -19,13 +19,13 @@
 </div>
 <div class="col-md-12 text-center" style="background:rgba(239,84,84,0.1); padding: 20px 0 20px 0;">
 
-	<a href="http://www.ou.edu/" target="_blank">
+	<a href="https://www.ou.edu/" target="_blank">
 		<img width="60px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/ou-logo.jpg">
 	</a>
-	<a href="http://www.ou.edu/ouit.html" target="_blank" class="logo-seperation">
+	<a href="https://www.ou.edu/ouit.html" target="_blank" class="logo-seperation">
         <img width="200px" src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/ou-it.jpg"/>
 	</a>
-	<a href="http://www.oscer.ou.edu/" target="_blank" class="logo-seperation">
+	<a href="https://ou.edu/oscer/" target="_blank" class="logo-seperation">
 		<img width="120px" src="{{URL::to('/')}}/themes/{{Session::get('theme')}}/assets/img/oscer-logo.png">
 	</a>
 </div>
